@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wansouza.lightmeter.LightMeter"
+    android:padding="0dp">
+
+
+    <SurfaceView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/blackPanel"
+        android:background="#000000"
+        android:backgroundTintMode="multiply" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:layout_margin="0dp"
+        android:background="@mipmap/bg_image" />
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="84dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200"
+            android:textSize="48sp"
+            android:id="@+id/lightValue"
+            android:layout_alignParentBottom="true"
+            android:textColor="#ffffff"
+            android:layout_gravity="right"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lux"
+            android:id="@+id/textView"
+            android:layout_gravity="left"
+            android:textSize="28sp"
+            android:textColor="#ffffff"
+            android:layout_alignBaseline="@+id/lightValue"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_toRightOf="@+id/lightValue"
+            android:paddingLeft="12dp"
+            android:alpha="0.75" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iluminação ideal para leitura"
+        android:id="@+id/resultText"
+        android:layout_alignParentBottom="true"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:alpha="0.75"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textAlignment="center" />
+
+</RelativeLayout>
