@@ -10,4 +10,4 @@ It's very simple, just open the app an it gets the value registered by the light
 
 ![LightMeter on device](https://dl.dropboxusercontent.com/u/9451043/LightMeter/mockup.png)
 
-> Photo credit: unsplash.com
+> Background photo: www.unsplash.com
