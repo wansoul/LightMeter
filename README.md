@@ -8,6 +8,6 @@ My group choose to use the device's light sensor and this is the result.
 
 It's very simple, just open the app an it gets the value registered by the light sensor and show the number in Luxes (or Lx) and give a tip on which kind of ambient the light condition is better for. The background image fades according to light level.
 
-![LightMeter on device](https://dl.dropboxusercontent.com/u/9451043/LightMeter/mockup.png)
+![LightMeter on device](https://github.com/wansoul/LightMeter/blob/master/mockup.png?raw=true)
 
 > Background photo: www.unsplash.com
